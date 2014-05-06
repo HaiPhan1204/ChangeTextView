@@ -30,7 +30,7 @@
     NSString* customText = self.TextField.text;
     self.LabelField.text = customText;
     
-    [self.TextField resignFirstResponder ];
+    
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
