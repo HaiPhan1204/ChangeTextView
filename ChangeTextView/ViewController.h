@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *ChangeTextButton;
+@property (strong, nonatomic) IBOutlet UITextField *TextField;
+@property (strong, nonatomic) IBOutlet UILabel *LabelField;
+
+
 
 @end

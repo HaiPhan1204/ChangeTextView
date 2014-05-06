@@ -25,5 +25,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)ChangeTextClick:(id)sender {
+    
+    NSString* customText = self.TextField.text;
+    self.LabelField.text = customText;
+    
+    [self.TextField resignFirstResponder ];
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [self.TextField resignFirstResponder ];
+}
 
 @end
